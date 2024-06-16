@@ -40,18 +40,4 @@ The contact us page includes a form where users can send inquiries or messages.
 4)Products Page  
 The products page displays a list of handmade crafts available for purchase.
 
-## Demo
 
-![Handmade Craft Website Demo](HandCraft/demo_images/a.png)
-
-![Handmade Craft Website Demo](HandCraft/demo_images/b.png)
-
-![Handmade Craft Website Demo](HandCraft/demo_images/c.png)
-
-![Handmade Craft Website Demo](HandCraft/demo_images/d.png)
-
-![Handmade Craft Website Demo](HandCraft/demo_images/e.png)
-
-![Handmade Craft Website Demo](HandCraft/demo_images/f.png)
-
-![Handmade Craft Website Demo](HandCraft/demo_images/g.png)
