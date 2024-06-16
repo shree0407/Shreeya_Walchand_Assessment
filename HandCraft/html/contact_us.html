@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Indian Crafts</title>
+    <link rel="stylesheet" type="text/css" href="/css/contact_us.css" />
+    <link rel="stylesheet" type="text/css" href="/css/include.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <style type="text/css">
+      button {
+        padding: 5px;
+        border: none;
+      }
+    </style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+  <body>
+    <header class="nav-header">
+      <img class="logo" src="/images/logo.jpg" alt="logo" />
+      <h1>Indian Crafts</h1>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a href="/html/home.html" class="active">Home</a></li>
+            <li><a href="/html/contact_us.html">Contact Us</a></li>
+            <li><a href="/html/products.html">Products</a></li>
+            <li><a href="/html/review.html">Review</a></li>
+          </ul>
+        </nav>
+      </div>
+      <img id="menuBar" src="/images/menuIcon.png" alt="" />
+    </header>
+    <div id="mobile-nav">
+      <ul>
+        <li><a href="/html/home.html" class="active">Home</a></li>
+        <li><a href="/html/contact_us.html">Contact Us</a></li>
+        <li><a href="/html/products.html">Products</a></li>
+        <li><a href="/html/review.html">Review</a></li>
+      </ul>
+    </div>
+    <div class="bg">
+      <div class="contacts">
+        <h1>Contact Us:</h1>
+        <form name="form" method="POST">
+          <label>Name:</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="  Enter Your Name"
+            required=""
+          /><br />
+
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="  Enter Your Email"
+            required=""
+          /><br />
+
+          <label>Enquiry:</label>
+          <textarea
+            type="text"
+            name="text"
+            placeholder="  Your Enquiry"
+            required=""
+          ></textarea
+          ><br />
+          <div><button type="submit" onclick="add();">Submit</button></div>
+        </form>
+        <div class="detail">
+          <h3>Call Us:</h3>
+          <table>
+            <tr>
+              <td>Phone:</td>
+              <td>01-4724473</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>01-4244363</td>
+            </tr>
+            <td>Mobile:</td>
+            <td>+91-857562014</td>
+            <tr>
+              <td></td>
+              <td>+91-896247103</td>
+            </tr>
+          </table>
+        </div>
+        <br />
+      </div>
+      <aside>
+        <div class="sectionPic bouncepic contactus" id="sectionPic">
+          <img src="/images/home.webp" alt="" />
+        </div>
+      </aside>
+
+      <div style="clear: both"></div>
+    </div>
+    <div class="footer">
+      <link rel="stylesheet" href="/css/contact_us.css" />
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#">Coupons</a></li>
+              <li><a href="#">Blog Post</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Join Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Experience Indian Crafts on Mobile</h3>
+            <div class="app-logo">
+              <a href="https://play.google.com/store" target="_blank">
+                <img src="/images/play-store.png" alt="Play Store" />
+              </a>
+              <a href="https://www.apple.com/app-store/" target="_blank">
+                <img src="/images/app-store.png" alt="App Store" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row center-purpose">
+          <div class="footer-col-purpose">
+            <h3>Our Purpose</h3>
+            <p>
+              Our purpose is to spread our culture by sharing our traditional
+              crafts.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2024 - Shreeya Desai</p>
+      </div>
+    </div>
+    <script src="/javascript/jquery-3.3.1.min.js"></script>
+    <script src="/javascript/navbar.js"></script>
+  </body>
+</html>

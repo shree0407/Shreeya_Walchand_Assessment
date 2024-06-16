@@ -1,0 +1,279 @@
+
+.footer {
+	background-color: #000000; 
+	color: #ffffff; 
+	padding: 60px 0;
+	font-size: 14px;
+	position: bottom;
+	
+  }
+  
+  .footer .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+  }
+  
+  .footer .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .footer-col {
+	flex: 1;
+	min-width: 220px;
+	margin: 20px 0;
+  }
+  
+  .footer-col h3 {
+	font-size: 18px;
+	margin-bottom: 20px;
+	position: relative;
+  }
+  
+  .footer-col h3::after {
+	content: '';
+	background-color: #ff523b; 
+	height: 2px;
+	width: 50px;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+  }
+  
+  .footer-col ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .footer-col ul li {
+	margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+	color: #ffffff; 
+	text-decoration: none;
+	transition: color 0.3s;
+  }
+  
+  .footer-col ul li a:hover {
+	color: #ff523b; 
+  }
+  
+  .footer .app-logo img {
+	width: 140px;
+	margin-right: 10px;
+  }
+  
+  .footer .app-logo img:last-child {
+	margin-right: 0;
+  }
+  
+  .footer .center-purpose {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .footer .footer-col-purpose {
+	max-width: 600px;
+  }
+  
+  .footer hr {
+	border: none;
+	height: 1px;
+	background-color: #555;
+	margin: 20px 0;
+  }
+  
+  .footer p {
+	text-align: center;
+	margin-top: 10px;
+  }
+  
+  .footer .container {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+	.footer .row {
+		flex-direction: column;
+		align-items: center;
+	}
+  
+	.footer .center-purpose {
+		flex-direction: column;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.footer .container {
+		padding: 0 20px;
+	}
+  }
+  
+
+
+body{
+	background: rgb(194,92,137);
+background: radial-gradient(circle, rgba(194,92,137,1) 0%, rgba(153,186,226,1) 100%);
+    background-size: cover;
+ 	height: 600px;
+}
+.topic{
+	font-family: Pacifico; 
+	text-decoration: underline; 
+	text-align: center; 
+	padding: 15px;
+	text-shadow: 10px 2px 8px rgba(0,0,0,0.5);
+	font-size: 1.8em;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.hide{
+	font-size: 20px;
+	color: #060606;
+}
+
+.h{
+	font-size: 30px;
+	color: #0b0b0b;
+	padding-bottom: 30px;
+}
+
+#button, #test{
+	border-radius: 10px;
+	height:30px;
+	background:	#05ce6d;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#383737;
+	width: 51.5%;
+	cursor: pointer;
+}
+
+#test:hover{
+	background-color: #212121;
+}
+
+#button:hover{
+	background-color: #212121;
+}
+
+.formgroup{
+	margin: 20px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.formgroup input, .formgroup textarea{
+	width:50%;
+	border-radius: 10px;
+	padding:10px;
+}
+
+.form-group{
+	width:50%;
+	padding:20px;
+	margin:auto;
+	text-align: center;
+}
+
+.form-group input[type="submit"]{
+	height:35px;
+	background:	#245f24;
+	border:0;
+	color:#111111;
+}
+
+#main{
+	text-align: center;
+}
+
+.logon{
+	margin: 30px;
+	margin-top: 45px;
+	line-height: 30px;
+
+}
+
+#container2{
+	margin:auto;
+	color: #181717;
+}
+
+textarea{
+	border-radius: 10px;
+}
+
+.log{
+	margin: 30px;
+	padding-left: 600px;
+	margin-top: -245px;
+	line-height: 30px;
+	text-align: center;
+}
+
+article{
+	margin: 20px;
+	margin-top: 10px;
+	color: #1f1e1e;
+}
+
+button{
+	padding: 5px;
+	border: none;
+	margin-bottom: 25px;
+}
+@media only screen and (max-width: 768px) {
+ 	.formgroup input, .formgroup textarea{
+ 		width: 80%;
+ 	}
+ 	body{
+ 		height:1080px;
+ 	}
+ 	footer{
+ 		position: fixed !important;
+ 	}
+}
+
+#mobile-nav{
+    display:none;
+}
+#mobile-nav ul{
+    font-size: 0;
+}
+#mobile-nav li{
+    border-bottom: 1px #111 solid;
+}
+#mobile-nav li a{
+    padding: 10px 30px;
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+}
+#mobile-nav li a:hover{
+    background: #fff;
+    color: #333;
+}
+@media only screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+    .nav-header #menuBar{
+        display: inline-block;
+    }
+}
+
